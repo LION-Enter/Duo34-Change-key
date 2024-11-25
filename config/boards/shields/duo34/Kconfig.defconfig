@@ -1,14 +1,15 @@
-if SHIELD_ALICE40_LEFT
+
+if SHIELD_DUO34_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Alice 40"
+    default "duo34"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_ALICE40_LEFT || SHIELD_ALICE40_RIGHT
+if SHIELD_DUO34_LEFT || SHIELD_DUO34_RIGHT
 
 config ZMK_SPLIT
     default y
