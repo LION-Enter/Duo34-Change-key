@@ -1,0 +1,11 @@
+file_format: "1"
+id: duo34
+name: duo34
+type: shield
+url: https://github.com/ChiRou200/Duo34
+requires: [nice_nano_v2]
+features:
+  - keys
+siblings:
+  - duo34_left
+  - dduo34_right
