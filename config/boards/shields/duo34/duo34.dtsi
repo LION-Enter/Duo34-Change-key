@@ -5,6 +5,8 @@
  */
 
 #include <dt-bindings/zmk/matrix_transform.h>
+#include <dt-bindings/zmk/matrix_transform.h>
+#include "duo34_layouts.dtsi"
 
 / {
     chosen {
@@ -37,4 +39,9 @@
             ;
 
     };
+};
+
+zephyr_udc0: &usbd {
+    compatible = "nordic,nrf-usbd";
+    status = "okay";
 };
